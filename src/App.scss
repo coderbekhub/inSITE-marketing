@@ -453,3 +453,102 @@ a {
     }
   }
 }
+
+// CONTACT
+
+.contactSection {
+  background: rgba(209, 225, 249, 0.20);
+  padding: 50px;
+
+  .contactTitle {
+    color: #0B2A5A;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%; 
+    letter-spacing: 0.96px;
+    margin-bottom: 64px;
+  }
+
+  .contactContent {
+    form {
+      input {
+        width: 350px;
+        padding: 10px 30px 10px 12px;
+        border-radius: 40px;
+        border: 1px solid #55C4E2;
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        display: flex;
+        width: 350px;
+        height: 170px;
+        border-radius: 40px;
+        border: 1px solid #55C4E2;
+        padding: 10px 0 0 15px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+      }
+      
+      button {
+        width: 350px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 40px;
+        border: 1px solid #55C4E2;
+        background: #55C2E2;
+        color: #FCFCFC;
+        font-size: 20px;
+        font-weight: 400;
+      }
+    }
+
+    .contactInfo {
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      a {
+        color: #0B2A5A;
+        font-size: 25px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        &::before {
+          content: '';
+          display: inline-block;
+          background: url(./img/contactPhone.svg);background-repeat: no-repeat; background-size: cover;background-position: center;
+          width: 30px;
+          height: 30px;
+          margin-right: 20px;
+        }
+      }
+
+      .contactInsta {
+        display: flex;
+        align-items: center;
+      }
+
+      .contactInsta::before {
+        content: '';
+        display: inline-block;
+        background: url(./img/contactInsta.svg);background-repeat: no-repeat; background-size: cover;background-position: center;
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+      }
+
+      .map {
+        iframe {
+          width: 380px;
+          height: 200px;
+          border-radius: 40px;
+        }
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ import Indicator from './Indicator'
 import Services from './Services'
 import Advantages from './Advantages'
 import Accordion from './Accordion'
+import Contact from './Contact'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <Services />
     <Advantages />
     <Accordion />
+    <Contact />
     </>
   )
 }
