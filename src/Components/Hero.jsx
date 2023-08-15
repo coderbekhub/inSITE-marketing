@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroImg1 from '../img/heroImg1.svg'
 import HeroImg3D from '../img/heroImg3D.png'
 
 export default function Hero() {

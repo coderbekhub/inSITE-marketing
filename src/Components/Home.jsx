@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './Navbar'
 import Header from './Header'
+import Indicator from './Indicator'
 
 export default function Home() {
   return (
     <>
     <Header />
-      {/* <Navbar /> */}
+    <Indicator />
     </>
   )
 }

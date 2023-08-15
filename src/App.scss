@@ -78,6 +78,10 @@ a {
         line-height: 24px; 
         letter-spacing: 0.36px;
         margin-right: 24px;
+
+        &:hover {
+          color: #ffffffc2;
+        }
       }
 
       .langList {
@@ -215,6 +219,11 @@ a {
         font-weight: 500;
         line-height: 24px; 
         letter-spacing: 0.36px;
+
+        &:hover {
+          background: #1B68E0;
+          color: #ffffffc2;
+        }
       }
     }
 
