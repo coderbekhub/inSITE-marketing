@@ -415,4 +415,41 @@ a {
 
 .accordionSection {
   margin-bottom: 100px;
+
+  .accordionTitle {
+    color: var(--color-800, #0B2A5A);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 62.4px */
+    letter-spacing: 0.96px;
+    margin-bottom: 64px;  
+  }
+
+  .accordion {
+    .accordion-item {
+      background: rgba(209, 225, 249, 0.20);
+
+      .accordion-header {
+        button {
+          color: #05152D;
+          font-size: 20px;
+          font-weight: 700;
+          letter-spacing: 0.8px;
+
+        }
+      }
+
+      .accordion-collapse {
+        div {
+          color: #475467;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 140%; 
+          letter-spacing: 0.64px;
+        }
+      }
+    }
+  }
 }
