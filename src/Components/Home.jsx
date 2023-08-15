@@ -3,6 +3,7 @@ import Header from './Header'
 import Indicator from './Indicator'
 import Services from './Services'
 import Advantages from './Advantages'
+import Accordion from './Accordion'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <Indicator />
     <Services />
     <Advantages />
+    <Accordion />
     </>
   )
 }
