@@ -46,3 +46,44 @@
     display: none !important;
   }
 }
+
+@media (max-width: 564px) {
+  .indicatorSection {
+    .indicatorText {
+      .indicatorHeaderTitle {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 122.4%;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        width: 500px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 143.9%;
+        color: #fff;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 70px;
+      }
+    }
+  
+    .indicatorContent {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+
+      div {
+        width: 90%;
+        margin: 0 auto;
+        display: inline-block;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  
+}

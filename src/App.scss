@@ -236,3 +236,108 @@ a {
     }
   }
 }
+
+// INDICATOR 
+
+.indicatorSection {
+  // width: 100%;
+  // height: 100vh;
+  // position: relative;
+
+  // .pTop {
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   height: 100vh;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   flex-direction: column;
+  //   z-index: 2;
+  // }
+
+  // .blur {
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   background: linear-gradient(180.03deg, rgba(26, 33, 73, 0) 0.03%, #18235C 99.97%), rgba(24, 35, 92, 0.5);
+  // }
+
+  .indicatorText {
+    display: block;
+    text-align: center;
+    z-index: 5;
+
+    p {
+      width: 500px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 143.9%;
+      color: #fff;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 70px;
+    }
+  }
+
+  .indicatorContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+
+    h1 {
+      color: #0B2A5A;
+      font-size: 64px;
+      font-weight: 600;
+      line-height: 130%; 
+      letter-spacing: 1.28px;
+    }
+
+    h2 {
+      color: #394352;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 140%; 
+      letter-spacing: 0.32px;
+    }
+    div {
+      margin-bottom: 20px;
+      padding: 25px;
+      width: 250px;
+      height: auto;
+      background: #374276;
+      margin-right: 20px;
+      
+      h1 {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 96.4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: -0.01em;
+        color: #fff;
+        margin-bottom: 15px;
+      }
+
+      h2 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 96.4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: -0.01em;
+        color: #fff;
+      }
+    }
+  }
+}
