@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { WEBMARKETING } from '../tools/constants'
 import { getLanguage, getText } from '../locale'
+import Brand from '../img/brand2.PNG'
 
 export default function Navbar() {
   const changeLanguage = (e) => {
@@ -40,9 +41,9 @@ export default function Navbar() {
             <div className="navBody">
               <a href='/'>
                 <div className='nav-logo'>
-                  {/* <img src={NavBrand} alt="..." /> */}
                   <a href="/">
-                    <h1>Web Marketing</h1>
+                  <img src={Brand} alt="..." />
+                    {/* <h1>Web Marketing</h1> */}
                   </a>
                 </div>
               </a>

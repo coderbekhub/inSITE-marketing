@@ -1,4 +1,5 @@
 import React from 'react'
+import Brand from '../img/brand2.PNG'
 
 export default function Footer() {
   return (
@@ -50,6 +51,14 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        
+        <div className='footerLine'></div>
+        <div className='footerLastContent'>
+          <a href="#">
+            <img src={Brand} alt="..." />
+          </a>
+          <span>© 2023 webmarketing.uz Barcha huquqlar himoyalangan</span>
+        </div>  
       </div>
     </section>
   )

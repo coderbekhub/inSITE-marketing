@@ -44,6 +44,11 @@ a {
           line-height: 130%; 
           letter-spacing: 0.6px;
         }
+
+        img {
+          width: 100px;
+          height: auto;
+        }
     }
 
     .nav-list {
@@ -637,6 +642,40 @@ a {
         }
       }
 
+    }
+  }
+
+  .footerLine {
+    border-bottom: 1px solid rgba(209, 225, 249, 0.50);
+    margin: 24px 0;
+  }
+
+  .footerLastContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    a {
+      img {
+        width: 130px;
+        height: auto;
+      }
+    }
+    h2 {
+      color: #D1E1F9;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 130%; 
+      letter-spacing: 0.6px;
+    }
+
+    span {
+      color: #d1e1f980;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.32px;
     }
   }
 }
