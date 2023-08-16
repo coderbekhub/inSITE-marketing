@@ -104,6 +104,10 @@ a {
             border-radius: 12px;
             background: #E8F0FC;
             align-items: center;
+
+            &:hover {
+              background: rgba(232, 240, 252, 0.757);
+            }
           }
       
           .wrap{
@@ -117,7 +121,7 @@ a {
             background-color: #f7f7f7;
             border-radius: 10px;
             box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-
+            
             p{
               cursor: pointer;
               color: #000;
@@ -125,8 +129,7 @@ a {
               margin-left: 20px;
             }
             p:hover {
-              transition: 0.3s ease-in;
-              color: #000;
+              color: #757171;
             }
           }
       
@@ -475,7 +478,7 @@ a {
         width: 350px;
         padding: 10px 30px 10px 12px;
         border-radius: 40px;
-        border: 1px solid #55C4E2;
+        border: 1px solid #1B68E0;
         margin-bottom: 20px;
       }
 
@@ -484,7 +487,7 @@ a {
         width: 350px;
         height: 170px;
         border-radius: 40px;
-        border: 1px solid #55C4E2;
+        border: 1px solid #1B68E0;
         padding: 10px 0 0 15px;
         margin: 0 auto;
         margin-bottom: 35px;
@@ -497,11 +500,14 @@ a {
         align-items: center;
         flex-shrink: 0;
         border-radius: 40px;
-        border: 1px solid #55C4E2;
-        background: #55C2E2;
+        border: 1px solid #1B68E0;
+        background: #1B68E0;
         color: #FCFCFC;
         font-size: 20px;
         font-weight: 400;
+        &:hover {
+          background: #2b72e5;
+        }
       }
     }
 
@@ -512,34 +518,27 @@ a {
         justify-content: center;
       }
       a {
-        color: #0B2A5A;
-        font-size: 25px;
+        color: #fff;
+        font-size: 20px;
         font-weight: 500;
         display: flex;
         align-items: center;
         margin-bottom: 30px;
-        &::before {
-          content: '';
-          display: inline-block;
-          background: url(./img/contactPhone.svg);background-repeat: no-repeat; background-size: cover;background-position: center;
-          width: 30px;
-          height: 30px;
-          margin-right: 20px;
+        width: 250px;
+        height: 50px;
+        border: 1px solid #1B68E0;
+        background: #1B68E0;
+        border-radius: 40px;
+        padding-left: 15px;
+        i {
+          margin-right: 10px;
+          font-size: 24px;
+          color: #fff;
         }
-      }
 
-      .contactInsta {
-        display: flex;
-        align-items: center;
-      }
-
-      .contactInsta::before {
-        content: '';
-        display: inline-block;
-        background: url(./img/contactInsta.svg);background-repeat: no-repeat; background-size: cover;background-position: center;
-        width: 30px;
-        height: 30px;
-        margin-right: 20px;
+        &:hover {
+          background: #2b72e5;
+        }
       }
 
       .map {
@@ -549,6 +548,95 @@ a {
           border-radius: 40px;
         }
       }
+    }
+  }
+}
+
+// FOOTER 
+
+.footerSection {
+  padding: 40px 96px 24px 96px;
+  background:#05152D;
+  .footerContent {
+    text-align: center;
+
+    li {
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 140%;
+      letter-spacing: 0.4px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      color: #FFF;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 140%; 
+        letter-spacing: 0.64px;
+        margin-bottom: 16px;
+    }
+
+    .servicesList {
+      text-align: left;
+    }
+
+    .footerContact {
+      .footerPhone {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        width: 210px;
+        height: auto;
+        border: 1px solid #1B68E0;
+        background: #1B68E0;
+        border-radius: 40px;
+        padding: 8px 0 8px 15px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        i {
+          margin-right: 10px;
+          font-size: 24px;
+          color: #fff;
+        }
+
+        &:hover {
+          background: #05bcf4;
+        }
+      }
+
+      .socialList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        div {
+          background: #1B68E0;
+          border-radius: 50%;
+          width: 35px;
+          height: 35px;
+          padding: 6px 0 0 0;
+          margin-left: 25px;
+          transform: scale(1);
+          &:hover {
+            i {
+              transition: all .5s ease-in-out;
+              transform: scale(1.2);
+            }
+          }
+
+          a {
+            i {
+              color: #fff;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
     }
   }
 }

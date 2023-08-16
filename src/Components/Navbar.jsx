@@ -36,7 +36,6 @@ export default function Navbar() {
   }, [])
   return (
     <section className='navSection'>
-      {/* <div className="container"> */}
         <nav className={`Navbar ${navbar ? 'navbarActive' : ''}`}>
             <div className="navBody">
               <a href='/'>
@@ -83,7 +82,6 @@ export default function Navbar() {
               </div>
             </div>
         </nav>
-      {/* </div> */}
     </section>
   )
 }

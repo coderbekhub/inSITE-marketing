@@ -5,6 +5,7 @@ import Services from './Services'
 import Advantages from './Advantages'
 import Accordion from './Accordion'
 import Contact from './Contact'
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <Advantages />
     <Accordion />
     <Contact />
+    <Footer />
     </>
   )
 }
