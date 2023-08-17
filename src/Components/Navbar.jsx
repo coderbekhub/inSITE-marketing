@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import { WEBMARKETING } from '../tools/constants'
 import { getLanguage, getText } from '../locale'
-import Brand from '../img/brand2.PNG'
+import navBrand from '../img/navBrand.png'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const changeLanguage = (e) => {
@@ -39,27 +40,24 @@ export default function Navbar() {
     <section className='navSection'>
         <nav className={`Navbar ${navbar ? 'navbarActive' : ''}`}>
             <div className="navBody">
-              <a href='/'>
-                <div className='nav-logo'>
-                  <a href="/">
-                  <img src={Brand} alt="..." />
-                    {/* <h1>Web Marketing</h1> */}
-                  </a>
-                </div>
-              </a>
+              <div className='nav-logo'>
+                <Link to='/'>
+                  <img src={navBrand} alt="..." />
+                </Link>
+              </div>
 
               <ul className={active}>
                 <li>
-                  <a onClick={navToggle}  className='nav-link' href="/"> {getText('Home')} </a>
+                  <Link onClick={navToggle}  className='nav-link' to='/'> {getText('Home')} </Link>
                 </li>
                 <li>
-                  <a onClick={navToggle} className='nav-link' href="#mahsulot">Xizmatlarimiz</a>
+                  <Link onClick={navToggle} className='nav-link' to='/xizmatlar'>Xizmatlarimiz</Link>
                 </li>
                 <li>
-                  <a onClick={navToggle} className='nav-link' href="#loyiha">Narxlar</a>
+                  <Link onClick={navToggle} className='nav-link' to='/narxlar'>Narxlar</Link>
                 </li>
                 <li>
-                  <a onClick={navToggle} className='nav-link' href="#loyiha">Aloqa</a>
+                  <Link onClick={navToggle} className='nav-link' to='/aloqa'>Aloqa</Link>
                 </li>
                 <ul className='langList'>
                   <li className='langWrap d-flex align-items-center'>
