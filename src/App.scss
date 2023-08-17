@@ -29,7 +29,7 @@ a {
   height: 700px;
 }
 .Navbar {
-  padding: 20px 0;
+  // padding: 20px 0;
   margin-bottom: 40px;
   .navBody {
     display: flex;
@@ -587,24 +587,27 @@ a {
     }
 
     .footerContact {
+      .footerContactTitle {
+        margin-bottom: 50px;
+      }
       .footerPhone {
         color: #fff;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 500;
         display: flex;
         align-items: center;
         margin-bottom: 30px;
-        width: 210px;
+        width: 180px;
         height: auto;
         border: 1px solid #1B68E0;
         background: #1B68E0;
         border-radius: 40px;
         padding: 8px 0 8px 15px;
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         i {
-          margin-right: 10px;
-          font-size: 24px;
+          margin-right: 6px;
+          font-size: 17px;
           color: #fff;
         }
 

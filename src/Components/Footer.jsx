@@ -11,8 +11,8 @@ export default function Footer() {
               <h2>Xizmatlar</h2>
             </li>
             <li>Veb sayt yaratish</li>
-            <li>Veb dizayn</li>
             <li>Telegram bot</li>
+            <li>Veb dizayn</li>
             <li>Google va yandexda reklama</li>
           </ul>
 
@@ -29,7 +29,7 @@ export default function Footer() {
           </ul>
 
           <div className='col-md-4 col-12 footerContact'>
-            <h2>Bog‘lanish</h2>
+            <h2 className='footerContactTitle'>Bog‘lanish</h2>
             <a href="tel:+998500105610" className='footerPhone'>
               <i class='bx bxs-phone'></i>
               +998 50 010 56 10
