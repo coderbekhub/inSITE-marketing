@@ -327,6 +327,7 @@ a {
       margin-bottom: 30px;
 
       div {
+        height: 263px;
         padding: 24px;
         align-items: flex-start;
         border-radius: 32px;
@@ -338,10 +339,16 @@ a {
           background: linear-gradient(0deg, #d1e1f965 0%, #d1e1f965 100%), #d1e1f965;
         }
 
-        img {
+        i {
           width: 64px;
           height: 64px;
           margin-bottom: 24px;
+          font-size: 34px;
+          border-radius: 16px;
+          background: #D1E1F9;
+          color: #1B68E0;
+          text-align: center;
+          padding-top: 13px;
         }
 
         h3 {
@@ -387,6 +394,7 @@ a {
       display: flex;
       gap: 24px;
       div {
+        width: 400px;
         padding: 24px 16px;
         border-radius: 32px;
         background: rgba(209, 225, 249, 0.35);
@@ -400,6 +408,17 @@ a {
         img {
           width: 56px;
           height: 56px;
+          margin-bottom: 24px;
+        }
+
+        i {
+          width: 56px;
+          height: 56px;
+          padding: 12px;
+          font-size: 32px;
+          border-radius: 16px;
+          background: #D1E1F9;
+          color: #1B68E0;
           margin-bottom: 24px;
         }
 
@@ -428,8 +447,6 @@ a {
 // ACCORDION
 
 .accordionSection {
-  margin-bottom: 100px;
-
   .accordionTitle {
     color: var(--color-800, #0B2A5A);
     font-family: Inter;
@@ -473,6 +490,7 @@ a {
 .contactSection {
   background: rgba(209, 225, 249, 0.20);
   padding: 50px;
+  margin-top: 100px;
 
   .contactTitle {
     color: #0B2A5A;

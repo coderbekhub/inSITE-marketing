@@ -37,16 +37,16 @@ export default function Footer() {
 
             <div className='socialList'>
               <div>
-                <a href="#"><i class='bx bxl-telegram'></i></a>
+                <a href="https://t.me/webmarketing_hr" target='_blank'><i class='bx bxl-telegram'></i></a>
               </div>
               <div>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.instagram.com/webmarketing.uz/" target='_blank'><i class='bx bxl-instagram-alt' ></i></a>
               </div>
               <div>
-                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.facebook.com/mirsodiq.mirzohidov.5" target='_blank'><i class='bx bxl-facebook' ></i></a>
               </div>
               <div>
-                <a href="#"><i class='bx bxl-vk'></i></a>
+                <a href="https://t.me/webmarketing_hr" target='_blank'><i class='bx bxl-vk'></i></a>
               </div>
             </div>
           </div>

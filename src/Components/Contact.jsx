@@ -86,7 +86,7 @@ export default function Contact() {
             <a href="tel:+998500105610">
               <i class='bx bxs-phone'></i>
               +998 50 0105610</a>
-            <a className='contactInsta' href="https://www.instagram.com/webmarketing.uz/">
+            <a className='contactInsta' target='_blank' href="https://www.instagram.com/webmarketing.uz/">
               <i class='bx bxl-instagram-alt' ></i>
               webmarketing.uz</a>
           </div>

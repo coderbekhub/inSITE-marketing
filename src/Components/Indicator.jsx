@@ -8,11 +8,11 @@ export default function Indicator() {
         <div>
           <div className='indicatorContent text-center row'>
             <div className='col-12 col-md-3 '>
-              <h1><CountUp start={0} end={30} duration={2} delay={0} />+</h1>
+              <h1><CountUp start={0} end={120} duration={2} delay={0} />+</h1>
               <h2>Muvaffaqiyatli ishlarimiz soni</h2>
             </div>
             <div className='col-12 col-md-3 '>
-              <h1><CountUp start={0} end={45} duration={2} delay={0} />+</h1>
+              <h1><CountUp start={0} end={155} duration={2} delay={0} />+</h1>
               <h2>MAMNUN MIJOZLAR</h2>
             </div>
             <div className='col-12 col-md-3 '>

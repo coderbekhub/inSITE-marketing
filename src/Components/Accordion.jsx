@@ -44,18 +44,7 @@ export default function Accordion() {
                 Ha, albatta, sizga ko’rsatmalar va kontentni boshqarish tizimiga kirish imkoniyati taqdim etiladi, bu juda qulay interfeysga ega, u intuitiv darajada tushunarli va maxsus bilimlarni talab qilmaydi.</div>
             </div>
           </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingFour">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Sayt bitgach texnik yordam ko’rsatasizlarmi?
-              </button>
-            </h2>
-            <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div className="accordion-body">
-                Saytizni topshirgandan keyin, tashab qo’ymaymiz. Yil davomida BEPUL texnik yordam va xavfsizligini kafolatlaymiz
-              </div>
-            </div>
-          </div>
+          
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingFive">
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -64,10 +53,9 @@ export default function Accordion() {
             </h2>
             <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
               <div className="accordion-body">
-                Domen va hosting;
                 Kunlik rezerv nusxa olish;
                 Yangi versiyasini o’rnatish;
-                Viruslardan himoya;
+                Viruslardan himoya qilish;
                 Monitoring;
                 Ma’lumot yangilash;
               </div>
@@ -82,7 +70,7 @@ export default function Accordion() {
             </h2>
             <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
               <div className="accordion-body">
-                Saytizni topshirgandan keyin, tashab qo’ymaymiz. Yil davomida BEPUL texnik yordam va xavfsizligini kafolatlaymiz
+                Saytingizni topshirgandan keyin 3 oy davomida BEPUL texnik yordam ko'rsatamiz
               </div>
             </div>
           </div>
