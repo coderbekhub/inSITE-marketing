@@ -1,7 +1,7 @@
 import React from 'react'
 import servicesCardIcon from '../img/servicesCardIcon.svg'
 
-export default function Services() {
+export default function Service() {
   return (
     <section className='serviceSection'>
       <div className="container">

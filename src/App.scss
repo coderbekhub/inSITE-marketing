@@ -28,27 +28,33 @@ a {
   width: 100%;
   height: 700px;
 }
+
+.navbarActive{
+  transition: 0.5s ease-in-out;
+  backdrop-filter: saturate(180%) blur(3px) !important;
+  background: hsla(0,0%,100%,.8) !important;
+}
+
 .Navbar {
-  // padding: 20px 0;
-  margin-bottom: 40px;
+  width: 100%;
+  position: fixed;
+  transition: 0.5s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
   .navBody {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     .nav-logo {
-        h1 {
-          color: #0B2A5A;
-          font-size: 30px;
-          font-weight: 700;
-          line-height: 130%; 
-          letter-spacing: 0.6px;
-        }
-
-        img {
-          width: 100px;
-          height: auto;
-        }
+      img {
+        width: 100px;
+        height: auto;
+      }
     }
 
     .nav-list {
@@ -77,16 +83,12 @@ a {
       }
       
       .nav-link {
-        color: #fff;
+        color: #000;
         font-size: 18px;
         font-weight: 600;
         line-height: 24px; 
         letter-spacing: 0.36px;
         margin-right: 24px;
-
-        &:hover {
-          color: #ffffffc2;
-        }
       }
 
       .langList {
@@ -107,16 +109,16 @@ a {
             height: auto;
             padding: 2px 10px;
             border-radius: 12px;
-            background: #E8F0FC;
+            background: #18d1c8;
             align-items: center;
 
             &:hover {
-              background: rgba(232, 240, 252, 0.757);
+              background: #18d1c8d1;
             }
           }
       
           .wrap{
-            transition: 0.5s ease-in;
+            transition: 0.3s ease-in;
             display: none;
             width: 120px;
             position: absolute;
@@ -188,6 +190,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top: 150px;
 
     .heroInfo {
       h2 {
@@ -248,8 +252,6 @@ a {
 // INDICATOR 
 
 .indicatorSection {
-  margin-bottom: 100px;
-
   .indicatorText {
     display: block;
     text-align: center;
@@ -308,6 +310,8 @@ a {
 
 .serviceSection {
   margin-bottom: 100px;
+  position: relative;
+  top: 150px;
   .servicesTitle {
     color: #0B2A5A;
     font-size: 48px;
@@ -318,6 +322,7 @@ a {
   }
 
   .servicesContent {
+    margin-bottom: 150px;
     div {
       margin-bottom: 30px;
 
@@ -371,6 +376,7 @@ a {
     line-height: 130%;
     letter-spacing: 0.96px;
     margin-bottom: 64px;
+    padding-top: 100px;
   }
 
   .advantageContent {
@@ -493,7 +499,7 @@ a {
         height: 170px;
         border-radius: 40px;
         border: 1px solid #1B68E0;
-        padding: 10px 0 0 15px;
+        padding: 15px 0 0 15px;
         margin: 0 auto;
         margin-bottom: 35px;
       }
@@ -679,6 +685,74 @@ a {
       font-weight: 500;
       line-height: 24px;
       letter-spacing: 0.32px;
+    }
+  }
+}
+
+// PRICE
+
+.priceSection {
+  position: relative; 
+  top: 100px;
+  margin-bottom: 200px;
+
+  .priceContent {
+    .priceCard {
+      border-radius: 40px;
+      padding: 20px 0px;
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      h2 {
+        color: #05152D;
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      span {
+        color: #05152da5;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        display: block;
+        text-align: center;
+      }
+
+      .priceHr {
+        width: 100%;
+        height: 1px;
+        background: #D9D9D9;
+        margin-bottom: 8px;
+      }
+
+      ul {
+        margin-bottom: 40px;
+        li {
+          color: #05152D;
+          font-size: 25px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          &::before {
+            content: '';
+            display: inline-block;
+            background: url(img/pricePlusIcon.png);background-repeat: no-repeat;background-size: cover;background-position: center;
+            font-size: 24px;
+            width: 24px;
+            height: 24px;
+            color: red;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      h3 {
+        color: #05152D;
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+      }
+      
     }
   }
 }

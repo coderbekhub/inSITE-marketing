@@ -5,10 +5,10 @@ import Hero from './Hero'
 export default function Header() {
   return (
     <section className='headerSection'>
-      <div className="container">
+      {/* <div className="container"> */}
         <Navbar />
         <Hero />
-      </div>
+      {/* </div> */}
     </section>
   )
 }

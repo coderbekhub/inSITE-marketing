@@ -39,7 +39,7 @@ export default function Navbar() {
   return (
     <section className='navSection'>
         <nav className={`Navbar ${navbar ? 'navbarActive' : ''}`}>
-            <div className="navBody">
+            <div className="navBody container">
               <div className='nav-logo'>
                 <Link to='/'>
                   <img src={navBrand} alt="..." />
@@ -52,9 +52,6 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link onClick={navToggle} className='nav-link' to='/xizmatlar'>Xizmatlarimiz</Link>
-                </li>
-                <li>
-                  <Link onClick={navToggle} className='nav-link' to='/narxlar'>Narxlar</Link>
                 </li>
                 <li>
                   <Link onClick={navToggle} className='nav-link' to='/aloqa'>Aloqa</Link>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Indicator from './Indicator'
-import Services from './Services'
+import Service from './Service'
 import Advantages from './Advantages'
 import Accordion from './Accordion'
 import Contact from './Contact'
@@ -12,7 +12,7 @@ export default function Home() {
     <>
     <Header />
     <Indicator />
-    <Services />
+    <Service />
     <Advantages />
     <Accordion />
     <Contact />
