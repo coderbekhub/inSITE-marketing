@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
-// import Indicator from './Indicator'
-// import Service from './Service'
+import Indicator from './Indicator'
+import Service from './Service'
 // import Advantages from './Advantages'
 // import Accordion from './Accordion'
 // import Contact from './Contact'
@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
     <Header />
-    {/* <Indicator /> */}
-    {/* <Service /> */}
+    <Indicator />
+    <Service />
     {/* <Advantages /> */}
     {/* <Accordion /> */}
     {/* <Contact /> */}

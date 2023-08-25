@@ -1,6 +1,4 @@
 import React from 'react'
-import servicesCardIcon from '../img/servicesCardIcon.svg'
-import SEOIcon from '../img/seoIcon.png'
 
 export default function Service() {
   return (
