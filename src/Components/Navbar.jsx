@@ -59,7 +59,7 @@ export default function Navbar() {
                 <ul className='langList'>
                   <li className='langWrap d-flex align-items-center'>
                     <h5 className='nav-link d-flex align-items-center'>
-                      {getLanguage() === 'en' ? <>English</> : getLanguage() === 'ru' ? <>Русский</> : <>O'zbek</>}
+                      {getLanguage() === 'en' ? <>English <i class='bx bx-chevron-down'></i> </> : getLanguage() === 'ru' ? <>Русский <i class='bx bx-chevron-down'></i> </> : <>O'zbek <i class='bx bx-chevron-down'></i></>}
                     </h5>
                     <div className="wrap">
                       <p onClick={() => changeLanguage('uz')}>O'zbek</p>

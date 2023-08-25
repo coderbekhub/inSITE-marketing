@@ -53,7 +53,7 @@ a {
     .nav-logo {
       img {
         width: 100px;
-        height: auto;
+        height: 100px;
       }
     }
 
@@ -122,7 +122,7 @@ a {
             display: none;
             width: 120px;
             position: absolute;
-            right: -25px;
+            right: -15px;
             top: 34px;
             padding: 10px;
             background-color: #f7f7f7;
@@ -187,9 +187,8 @@ a {
 
 .heroSection {
   .heroContent {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
     position: relative;
     top: 150px;
 
@@ -202,7 +201,7 @@ a {
         letter-spacing: 0.8px;
         margin-bottom: 32px;
         span {
-          color: #1654B3;
+          color: #ffffff79;
         }
       }
 
@@ -212,7 +211,6 @@ a {
         font-weight: 500;
         line-height: 140%; 
         letter-spacing: 0.36px;
-        width: 720px;
         margin-bottom: 32px;
       }
 
@@ -241,7 +239,7 @@ a {
 
     div {
       img {
-        width: 416.786px;
+        width: 417px;
         height: 450px;
         border-radius: 20px;
       }
@@ -448,12 +446,10 @@ a {
 
 .accordionSection {
   .accordionTitle {
-    color: var(--color-800, #0B2A5A);
-    font-family: Inter;
+    color: #0B2A5A;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 130%; /* 62.4px */
+    line-height: 130%; 
     letter-spacing: 0.96px;
     margin-bottom: 64px;  
   }
@@ -805,7 +801,6 @@ a {
           transition: .3s ease-in;
         }
       }
-      
     }
   }
 }
