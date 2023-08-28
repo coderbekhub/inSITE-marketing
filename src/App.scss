@@ -305,53 +305,51 @@ a {
 
   .servicesContent {
     margin-bottom: 150px;
+    justify-content: space-between;
 
     div {
-      
-      div {
-        height: 263px;
-        padding: 24px;
-        align-items: flex-start;
-        border-radius: 32px;
-        background: linear-gradient(0deg, #d1e1f959 0%, #d1e1f959 100%), #d1e1f933;
-        margin-right: 24px;
-        cursor: pointer;
-        margin-bottom: 40px;
+      padding: 24px;
+      align-items: flex-start;
+      border-radius: 32px;
+      background: linear-gradient(0deg, #d1e1f959 0%, #d1e1f959 100%), #d1e1f933;
+      cursor: pointer;
+      margin-bottom: 40px;
+      &:hover {
+        background: linear-gradient(0deg, #d1e1f965 0%, #d1e1f965 100%), #d1e1f965;
+      }
 
-        &:hover {
-          background: linear-gradient(0deg, #d1e1f965 0%, #d1e1f965 100%), #d1e1f965;
-        }
+      i {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 24px;
+        font-size: 34px;
+        border-radius: 16px;
+        background: #D1E1F9;
+        color: #1B68E0;
+        text-align: center;
+        padding-top: 13px;
+      }
 
-        i {
-          width: 64px;
-          height: 64px;
-          margin-bottom: 24px;
-          font-size: 34px;
-          border-radius: 16px;
-          background: #D1E1F9;
-          color: #1B68E0;
-          text-align: center;
-          padding-top: 13px;
-        }
+      h3 {
+        color: #05152D;
+        font-size: 35px !important;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 0.8px;
+        margin-bottom: 8px;
+      }
 
-        h3 {
-          color: #05152D;
-          font-size: 35px !important;
-          font-weight: 600;
-          line-height: 130%;
-          letter-spacing: 0.8px;
-          margin-bottom: 8px;
-        }
-
-        p {
-          color: #394352;
-          font-size: 16px;
-          font-weight: 500;
-          line-height: 140%; 
-          letter-spacing: 0.36px;
-        }
+      p {
+        color: #394352;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 140%; 
+        letter-spacing: 0.36px;
       }
     }
+    // div {
+      
+    // }
   }
 }
 
