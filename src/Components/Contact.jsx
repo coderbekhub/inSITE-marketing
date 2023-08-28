@@ -80,9 +80,9 @@ export default function Contact() {
     <section className='contactSection'>
       <div className="container">
         <h2 className='contactTitle'>Biz bilan aloqa</h2>
-        <div className='row contactContent text-center justify-content-center'>
+        <div className='row contactContent justify-content-center align-items-center'>
           <div className='col-md-6 col-12 contactInfo'>
-            <div className='col-md-6 col-12'>
+            <div className='col-md-12 col-12'>
               <a href="tel:+998500105610">
                 <i class='bx bxs-phone'></i>
                 +998 50 0105610</a>
@@ -90,34 +90,34 @@ export default function Contact() {
                 <i class='bx bxl-instagram-alt' ></i>
                 webmarketing.uz</a>
             </div>
-            <div className='map col-md-6 col-12'>
+            <div className='map col-12 col-md-12'>
               <iframe className='googleMap' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11986.72155460763!2d69.27582195!3d41.31581609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1667807743095!5m2!1sru!2s"></iframe>
             </div>
           </div>
 
           <form className='col-md-6 col-12' onSubmit={sendForm}>
-            <div className='col-md-6 col-12'>
+            <div className='col-12 col-md-12'>
               <input type="text" id='name' required placeholder='Ism' onChange={() => setError(p => ({ ...p, name: [false, ''] }))} style={error.name[0] ? styled : null} />
               {error.name[0] && <p style={{ color: 'red' }}>{error.name[1]}</p>}
               <br />
-                <input onChange={() => setError(p => ({ ...p, name: [false, ''] }))} style={error.name[0] ? styled : null} type="tel" id='number' 
-                  autocomplete="on" maxlength="13" minlength="4" data-intl-tel-input-id="1" placeholder='+998 (__)___-__-__' 
-                  onChange={(e) => {
-                    e.target.setCustomValidity("");
-                    if (!e.target.validity.valid) {
-                      e.target.setCustomValidity(
-                        "Raqamni noto'g'ri kiritdingiz! Misol: +998 (97) 7770777"
-                      );
-                    }
+              <input onChange={() => setError(p => ({ ...p, name: [false, ''] }))} style={error.name[0] ? styled : null} type="tel" id='number' 
+                autocomplete="on" maxlength="13" minlength="4" data-intl-tel-input-id="1" placeholder='+998 (__)___-__-__' 
+                onChange={(e) => {
+                  e.target.setCustomValidity("");
+                  if (!e.target.validity.valid) {
+                    e.target.setCustomValidity(
+                      "Raqamni noto'g'ri kiritdingiz! Misol: +998 (97) 7770777"
+                    );
+                  }
                     setError(p => ({ ...p, phone: [false, ''] }))
                   }} pattern="[+]{1}[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}"
                 /> 
               {error.phone[0] && <p style={{ color: 'red' }}>{error.phone[1]}</p>}
             </div>
-            <div className='col-md-6 col-12'>
+            <div className='col-12 col-md-12'>
               <textarea name="message" id="message" cols="30" rows="10" placeholder='Izoh qo’ldiring'></textarea>
             </div>
-              <button className='d-flex' disabled={disbl}>Yuborish</button>
+              <button disabled={disbl}>Yuborish</button>
           </form>
         </div>
       </div>
