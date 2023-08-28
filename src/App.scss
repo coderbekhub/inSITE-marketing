@@ -44,7 +44,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   .navBody {
     display: flex;
     justify-content: space-between;
@@ -305,9 +305,9 @@ a {
 
   .servicesContent {
     margin-bottom: 150px;
-    div {
-      margin-bottom: 30px;
 
+    div {
+      
       div {
         height: 263px;
         padding: 24px;
@@ -316,6 +316,7 @@ a {
         background: linear-gradient(0deg, #d1e1f959 0%, #d1e1f959 100%), #d1e1f933;
         margin-right: 24px;
         cursor: pointer;
+        margin-bottom: 40px;
 
         &:hover {
           background: linear-gradient(0deg, #d1e1f965 0%, #d1e1f965 100%), #d1e1f965;
@@ -335,7 +336,7 @@ a {
 
         h3 {
           color: #05152D;
-          font-size: 40px;
+          font-size: 35px !important;
           font-weight: 600;
           line-height: 130%;
           letter-spacing: 0.8px;
@@ -344,7 +345,7 @@ a {
 
         p {
           color: #394352;
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 500;
           line-height: 140%; 
           letter-spacing: 0.36px;

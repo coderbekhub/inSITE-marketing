@@ -25,7 +25,7 @@ export default function Service() {
                 <h3>Telegram bot</h3>
                 <p>Telegram botingizni biz bilan yarating. Biz turli xildagi botlarni siz istaganingizdek qilib yaratib beramiz.</p>
               </div>
-              <div>
+              <div className='serviceCard'>
                 <i class='bx bxl-reddit'></i>
                 <h3>Veb dizayn</h3>
                 <p>Web Dizayn | Sayt Uchun Ijodiy va Betakror G'oyalar</p>
