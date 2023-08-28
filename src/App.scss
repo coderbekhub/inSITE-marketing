@@ -306,7 +306,6 @@ a {
   .servicesContent {
     margin-bottom: 150px;
     justify-content: space-between;
-
     div {
       padding: 24px;
       align-items: flex-start;
@@ -314,10 +313,11 @@ a {
       background: linear-gradient(0deg, #d1e1f959 0%, #d1e1f959 100%), #d1e1f933;
       cursor: pointer;
       margin-bottom: 40px;
+
       &:hover {
         background: linear-gradient(0deg, #d1e1f965 0%, #d1e1f965 100%), #d1e1f965;
       }
-
+      
       i {
         width: 64px;
         height: 64px;

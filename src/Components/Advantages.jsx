@@ -5,7 +5,7 @@ export default function Advantages() {
     <section className='advantageSection'>
       <div className="container">
         <h2 className='advantagesTitle'>Bizning afzaliklarimiz</h2>
-        <div className='advantageContent row justify-content-between'>
+        <div className='advantageContent row justify-content-center'>
           <div className='col-md-4 col-12'>
             <i class='bx bxs-group' ></i>
             <h3>Tajribali jamoa a’zolari</h3>
