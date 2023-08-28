@@ -3,7 +3,7 @@ import Header from './Header'
 import Indicator from './Indicator'
 import Service from './Service'
 import Advantages from './Advantages'
-// import Accordion from './Accordion'
+import Accordion from './Accordion'
 // import Contact from './Contact'
 import Footer from './Footer'
 
@@ -14,7 +14,7 @@ export default function Home() {
     <Indicator />
     <Service />
     <Advantages />
-    {/* <Accordion /> */}
+    <Accordion />
     {/* <Contact /> */}
     <Footer />
     </>

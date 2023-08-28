@@ -205,6 +205,15 @@
     }
   }
 
+  // ACCORDION
+
+  .accordionSection {
+    margin-bottom: 80px;
+    .accordionTitle {
+      font-size: 34px;
+      margin-bottom: 44px;  
+    }
+  }
 }
 
 @media (max-width: 564px) {
@@ -330,6 +339,16 @@
       }
     }
   }
+
+  // ACCORDION
+
+  .accordionSection {
+    margin-bottom: 50px;
+    .accordionTitle {
+      margin-bottom: 34px;  
+    }
+  }
+
 
 }
 
