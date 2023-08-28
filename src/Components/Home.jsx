@@ -2,10 +2,10 @@ import React from 'react'
 import Header from './Header'
 import Indicator from './Indicator'
 import Service from './Service'
-// import Advantages from './Advantages'
+import Advantages from './Advantages'
 // import Accordion from './Accordion'
 // import Contact from './Contact'
-// import Footer from './Footer'
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -13,10 +13,10 @@ export default function Home() {
     <Header />
     <Indicator />
     <Service />
-    {/* <Advantages /> */}
+    <Advantages />
     {/* <Accordion /> */}
     {/* <Contact /> */}
-    {/* <Footer /> */}
+    <Footer />
     </>
   )
 }

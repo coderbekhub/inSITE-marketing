@@ -370,58 +370,52 @@ a {
   }
 
   .advantageContent {
-    display: flex;
-    flex-wrap: wrap;
+    gap: 24px;
+    div {
+      width: 400px;
+      padding: 24px 16px;
+      border-radius: 32px;
+      background: rgba(209, 225, 249, 0.35);
+      margin-bottom: 30px;
+      cursor: pointer;
 
-    .advantageInfo {
-      display: flex;
-      gap: 24px;
-      div {
-        width: 400px;
-        padding: 24px 16px;
-        border-radius: 32px;
-        background: rgba(209, 225, 249, 0.35);
-        margin-bottom: 30px;
-        cursor: pointer;
+      &:hover {
+        background: linear-gradient(0deg, #d1e1f965 0%, #d1e1f965 100%), #d1e1f965;
+      }
 
-        &:hover {
-          background: linear-gradient(0deg, #d1e1f965 0%, #d1e1f965 100%), #d1e1f965;
-        }
+      img {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 24px;
+      }
 
-        img {
-          width: 56px;
-          height: 56px;
-          margin-bottom: 24px;
-        }
+      i {
+        width: 56px;
+        height: 56px;
+        padding: 12px;
+        font-size: 32px;
+        border-radius: 16px;
+        background: #D1E1F9;
+        color: #1B68E0;
+        margin-bottom: 24px;
+      }
 
-        i {
-          width: 56px;
-          height: 56px;
-          padding: 12px;
-          font-size: 32px;
-          border-radius: 16px;
-          background: #D1E1F9;
-          color: #1B68E0;
-          margin-bottom: 24px;
-        }
+      h3 {
+        color: #05152D;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 130%; 
+        letter-spacing: 0.6px;
+        margin-bottom: 8px;
+      }
 
-        h3 {
-          color: #05152D;
-          font-size: 30px;
-          font-weight: 600;
-          line-height: 130%; 
-          letter-spacing: 0.6px;
-          margin-bottom: 8px;
-        }
-
-        p {
-          overflow: hidden;
-          color: #394352;
-          font-size: 18px;
-          font-weight: 500;
-          line-height: 140%; 
-          letter-spacing: 0.36px;
-        }
+      p {
+        overflow: hidden;
+        color: #394352;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 140%; 
+        letter-spacing: 0.36px;
       }
     }
   }
