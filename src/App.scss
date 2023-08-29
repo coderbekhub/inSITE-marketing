@@ -32,7 +32,7 @@ a {
 .navbarActive{
   transition: 0.5s ease-in-out;
   backdrop-filter: saturate(180%) blur(3px) !important;
-  background: #1B68E0b2 !important;
+  background: #0B2A5Ab2 !important;
 }
 
 .Navbar {
@@ -44,6 +44,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #0B2A5Ab2;
 
   .navBody {
     display: flex;
