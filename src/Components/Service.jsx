@@ -5,8 +5,8 @@ export default function Service() {
     <section className='serviceSection'>
       <div className="container">
         <h2 className='servicesTitle'>Xizmatlarimiz</h2>
-        <div className='row servicesContent justify-content-center'>
-          <div className='col-md-6 col-12'>
+        <div data-aos="fade-right" className='row servicesContent justify-content-center'>
+          <div  className='col-md-6 col-12'>
             <i class='bx bx-globe'></i>
             <h3>Veb saytlar</h3>
             <p>Veb-saytingizni biz bilan yarating. Biz turli xildagi saytlarni siz istaganingizdek qilib yaratib beramiz.</p>

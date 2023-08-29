@@ -1,7 +1,6 @@
 import React from 'react'
-import HeroImg3D from '../img/heroImg3D.png'
 import { Link } from 'react-router-dom'
-
+import Aos from 'aos'
 export default function Hero() {
   return (
     <section className='heroSection'>
