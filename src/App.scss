@@ -463,7 +463,7 @@ a {
 
 .contactSection {
   background: rgba(209, 225, 249, 0.20);
-  padding: 50px 0;
+  padding: 100px 0;
   margin-top: 100px;
 
   .contactTitle {
@@ -472,10 +472,27 @@ a {
     font-weight: 700;
     line-height: 130%; 
     letter-spacing: 0.96px;
-    margin-bottom: 64px;
   }
 
   .contactContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    p {
+      width: 576px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: #0B2A5A;
+      font-size: 40px;
+      border-left: #1B68E0 solid 3px;
+      padding-left: 15px;
+
+      span {
+        color: #1B68E0;
+      } 
+    }
     form {
       input {
         width: 350px;
@@ -508,40 +525,6 @@ a {
         font-weight: 400;
         &:hover {
           background: #2b72e5;
-        }
-      }
-    }
-
-    .contactInfo {
-      a {
-        color: #fff;
-        font-size: 20px;
-        font-weight: 500;
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-        width: 250px;
-        height: 50px;
-        border: 1px solid #1B68E0;
-        background: #1B68E0;
-        border-radius: 40px;
-        padding-left: 15px;
-        i {
-          margin-right: 10px;
-          font-size: 24px;
-          color: #fff;
-        }
-
-        &:hover {
-          background: #2b72e5;
-        }
-      }
-
-      .map {
-        iframe {
-          width: 380px;
-          height: 200px;
-          border-radius: 40px;
         }
       }
     }

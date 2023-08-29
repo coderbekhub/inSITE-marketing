@@ -80,23 +80,13 @@ export default function Contact() {
     <section className='contactSection'>
       <div className="container">
         <h2 className='contactTitle'>Biz bilan aloqa</h2>
-        <div className='row contactContent justify-content-center align-items-center'>
-          <div className='col-md-6 col-12 contactInfo'>
-            <div className='col-md-12 col-12'>
-              <a href="tel:+998500105610">
-                <i class='bx bxs-phone'></i>
-                +998 50 0105610</a>
-              <a className='contactInsta' target='_blank' href="https://www.instagram.com/webmarketing.uz/">
-                <i class='bx bxl-instagram-alt' ></i>
-                webmarketing.uz</a>
-            </div>
-            <div className='map col-12 col-md-12'>
-              <iframe className='googleMap' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11986.72155460763!2d69.27582195!3d41.31581609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1667807743095!5m2!1sru!2s"></iframe>
-            </div>
+        <div className='contactContent'>
+          <div className='contactInfo'>
+            <p><span>Savolingiz bormi?</span> U holda quyidagi bo`limlarni to`ldiring, va bizga yuboring. Sizga tez orada javob beramiz!</p>
           </div>
 
-          <form className='col-md-6 col-12' onSubmit={sendForm}>
-            <div className='col-12 col-md-12'>
+          <form onSubmit={sendForm}>
+            <div>
               <input type="text" id='name' required placeholder='Ism' onChange={() => setError(p => ({ ...p, name: [false, ''] }))} style={error.name[0] ? styled : null} />
               {error.name[0] && <p style={{ color: 'red' }}>{error.name[1]}</p>}
               <br />
