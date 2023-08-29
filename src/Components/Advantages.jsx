@@ -1,41 +1,42 @@
 import React from 'react'
+import { getText } from '../locale'
 
 export default function Advantages() {
   return (
     <section className='advantageSection'>
       <div className="container">
-        <h2 className='advantagesTitle'>Bizning afzaliklarimiz</h2>
+        <h2 className='advantagesTitle'>{getText('advantagesTitle')}</h2>
         <div className='advantageContent row justify-content-center'>
           <div className='col-md-4 col-12'>
             <i class='bx bxs-group' ></i>
-            <h3>Tajribali jamoa a’zolari</h3>
-            <p>Biznimg jamoamiz azolari o’z ishlarining mutaxasislari bo’lib o’z sohalari bo’yicha 1,5 yildan ortiq tajribaga ega va ma’sulyatlidirlar</p>
+            <h3>{getText('advantagesType')}</h3>
+            <p>{getText('advantagesText')}</p>
           </div>
           <div className='col-md-4 col-12'>
             <i class='bx bx-support' ></i>
-            <h3>Texnik qo’llab quvatlash</h3>
-            <p>Loyiha yakunlangandan so’ng 3 oy davomida hodimlarimiz tamonidin nazorat qilinib turiladi</p>
+            <h3>{getText('advantagesType2')}</h3>
+            <p>{getText('advantagesText2')}</p>
           </div>
           <div className='col-md-4 col-12'>
             <i class='bx bx-purchase-tag' ></i>
-            <h3>Qulay narx va sifat</h3>
-            <p>Mangosteen Group o’z mijozlariga qulay narxlar bilan birgalikda a’lo darajadagi sifatni ham ulashadi</p>
+            <h3>{getText('advantagesType3')}</h3>
+            <p>{getText('advantagesText3')}</p>
           </div>
 
           <div className='col-md-4 col-12'>
             <i class='bx bxs-check-shield'></i>
-            <h3>Kafolatlangan xizmat</h3>
-            <p>Biz xizmatimiz kelishilinganidek bo’lishiga 100% kafolat beramiz va belgilangan mudatda kelishilingan xolda topshiramiz</p>
+            <h3>{getText('advantagesType4')}</h3>
+            <p>{getText('advantagesText4')}</p>
           </div>
           <div className='col-md-4 col-12'>
             <i class='bx bxs-castle'></i>
-            <h3>Profisional dizayn</h3>
-            <p>Biz dizaynga prodisional tarzda yondashamiz dizayn yagona boladi xechqanday nusxa emas</p>
+            <h3>{getText('advantagesType5')}</h3>
+            <p>{getText('advantagesText5')}</p>
           </div>
           <div className='col-md-4 col-12'>
             <i class='bx bxl-creative-commons' ></i>
-            <h3>Creative g'oyalar</h3>
-            <p>Bizning jamoa hamkorlik jarayonida yangi g'oyalar va takliflar bilan bo'lishadi</p>
+            <h3>{getText('advantagesType6')}</h3>
+            <p>{getText('advantagesText6')}</p>
           </div>
         </div>
       </div>

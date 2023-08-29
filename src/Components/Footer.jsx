@@ -1,5 +1,6 @@
 import React from 'react'
 import Brand from '../img/brand2.PNG'
+import {getText} from '../locale'
 
 export default function Footer() {
   return (
@@ -8,28 +9,28 @@ export default function Footer() {
         <div className='footerContent row'>
           <ul className='col-md-4 col-12 servicesList'>
             <li>
-              <h2>Xizmatlar</h2>
+              <h2>{getText('footerServiceTitle')}</h2>
             </li>
-            <li>Veb sayt yaratish</li>
-            <li>Telegram bot</li>
-            <li>Veb dizayn</li>
-            <li>Google va yandexda reklama</li>
+            <li>{getText('footerServiceLink')}</li>
+            <li>{getText('footerServiceLink2')}</li>
+            <li>{getText('footerServiceLink3')}</li>
+            <li>{getText('footerServiceLink4')}</li>
           </ul>
 
           <ul className='col-md-4 col-12 afzalliklarList'>
             <li>
-              <h2>Bizning afzaliklarimiz</h2>
+              <h2>{getText('footerAdvantagesTitle')}</h2>
             </li>
-            <li>Tajribali jamoa a’zolari</li>
-            <li>Texnik qo’llab quvatlash</li>
-            <li>Qulay narx va sifat</li>
-            <li>Kafolatlangan xizmat</li>
-            <li>Profisional dizayn</li>
-            <li>Kreativ g'oyalar</li>
+            <li>{getText('footerAdvantagesLink')}</li>
+            <li>{getText('footerAdvantagesLink2')}</li>
+            <li>{getText('footerAdvantagesLink3')}</li>
+            <li>{getText('footerAdvantagesLink4')}</li>
+            <li>{getText('footerAdvantagesLink5')}</li>
+            <li>{getText('footerAdvantagesLink6')}</li>
           </ul>
 
           <div className='col-md-4 col-12 footerContact'>
-            <h2 className='footerContactTitle'>Bog‘lanish</h2>
+            <h2 className='footerContactTitle'>{getText('footerContactPhone')}</h2>
             <a href="tel:+998500105610" className='footerPhone'>
               <i class='bx bxs-phone'></i>
               +998 50 010 56 10
@@ -57,7 +58,7 @@ export default function Footer() {
           <a href="#">
             <img src={Brand} alt="..." />
           </a>
-          <span>© 2023 webmarketing.uz Barcha huquqlar himoyalangan</span>
+          <span>{getText('footerLastText')}</span>
         </div>  
       </div>
     </section>

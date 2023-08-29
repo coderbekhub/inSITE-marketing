@@ -196,11 +196,14 @@ a {
 
     .heroInfo {
       h2 {
+        width: 720px;
         color: #ffffff9c;
         font-size: 40px;
         font-weight: 700;
         line-height: 130%;
         letter-spacing: 0.8px;
+        margin: 0 auto;
+        display: block;
         margin-bottom: 32px;
         span {
           color: #fff;
@@ -208,6 +211,7 @@ a {
       }
 
       p {
+        width: 720px;
         color: #ddd;
         font-size: 18px;
         font-weight: 500;

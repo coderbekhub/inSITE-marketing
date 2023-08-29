@@ -1,30 +1,31 @@
 import React from 'react'
+import { getText } from '../locale'
 
 export default function Service() {
   return (
     <section className='serviceSection'>
       <div className="container">
-        <h2 className='servicesTitle'>Xizmatlarimiz</h2>
-        <div data-aos="fade-right" className='row servicesContent justify-content-center'>
+        <h2 className='servicesTitle'>{getText('serviceTitle')}</h2>
+        <div className='row servicesContent justify-content-center'>
           <div  className='col-md-6 col-12'>
             <i class='bx bx-globe'></i>
-            <h3>Veb saytlar</h3>
-            <p>Veb-saytingizni biz bilan yarating. Biz turli xildagi saytlarni siz istaganingizdek qilib yaratib beramiz.</p>
+            <h3>{getText('serviceType')}</h3>
+            <p>{getText('serviceText')}</p>
           </div>
           <div className='col-md-6 col-12'>
             <i class='bx bx-line-chart'></i>
-            <h3>Google reklama (SEO)</h3>
-            <p>Google va Yandex qidiruv tizimida saytingizni profisional reklama qilib beramiz </p>
+            <h3>{getText('serviceType2')}</h3>
+            <p>{getText('serviceText2')} </p>
           </div>
           <div className='col-md-6 col-12'>
             <i class='bx bxl-telegram'></i>
-            <h3>Telegram bot</h3>
-            <p>Telegram botingizni biz bilan yarating. Biz turli xildagi botlarni siz istaganingizdek qilib yaratib beramiz.</p>
+            <h3>{getText('serviceType3')}</h3>
+            <p>{getText('serviceText3')}</p>
           </div>
           <div className='col-md-6 col-12'>
             <i class='bx bxl-reddit'></i>
-            <h3>Veb dizayn</h3>
-            <p>Web Dizayn | Sayt Uchun Ijodiy va Betakror G'oyalar</p>
+            <h3>{getText('serviceText4')}</h3>
+            <p>{getText('serviceText4')}</p>
           </div>
         </div>
       </div>

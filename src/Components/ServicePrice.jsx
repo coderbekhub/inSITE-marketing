@@ -1,60 +1,62 @@
 import React from 'react'
+import {getText} from '../locale'
+import { get } from 'react-hook-form'
 
 export default function ServicePrice() {
   return (
     <section className='priceSection'>
       <div className="container">
-        <h2 className='priceTitle'>Narxlar</h2>
+        <h2 className='priceTitle'>{getText('servicePriceTitle')}</h2>
         <div className='priceContent row justify-content-center'>
           <div className='priceCard card'>
-            <h2>Landing page</h2>
-            <span>Bizdan sizga</span>
+            <h2>{getText('servicePriceLanding')}</h2>
+            <span>{getText('servicePriceLandingBonus')}</span>
             <div className='priceHr'></div>
             <ul>
-              <li>Domen</li>
-              <li>Hosting (200 МБ)</li>
-              <li>SSL sertifikat</li>
-              <li>Muddati 3 kun</li>
+              <li>{getText('servicePriceLandingList1')}</li>
+              <li>{getText('servicePriceLandingList2')}(200 MG)</li>
+              <li>{getText('servicePriceLandingList3')}</li>
+              <li>{getText('servicePriceLandingTime1')}</li>
             </ul>
             <h3>299$</h3>
-            <a href="tel:+998500105610">Bepul Konsultatsiya</a>
+            <a href="tel:+998500105610">{getText('servicePriceConsultation')}</a>
           </div>
 
           <div className='priceCard card'>
-            <h2>Katalog sayt</h2>
-            <span>Bizdan sizga</span>
+            <h2>{getText('servicePriceCatalog')}</h2>
+            <span>{getText('servicePriceLandingBonus')}</span>
             <div className='priceHr'></div>
             <ul>
-              <li>Domen</li>
-              <li>Hosting (500 МБ)</li>
-              <li>SSL sertifikat</li>
-              <li>Muddati 10/20 kun</li>
-              <li>Admin panel</li>
+              <li>{getText('servicePriceLandingList1')}</li>
+              <li>{getText('servicePriceLandingList2')} (500 MG)</li>
+              <li>{getText('servicePriceLandingList3')}</li>
+              <li>{getText('servicePriceCatalogTime2')}</li>
+              <li>{getText('servicePriceCatalogPanel')}</li>
             </ul>
             <h3>499$</h3>
-            <a href="tel:+998500105610">Bepul Konsultatsiya</a>
+            <a href="tel:+998500105610">{getText('servicePriceConsultation')}</a>
           </div>
 
           <div className='priceCard card'>
-            <h2>Internet magazin</h2>
-            <span>Bizdan sizga</span>
+            <h2>{getText('servicePriceMagasine')}</h2>
+            <span>{getText('servicePriceLandingBonus')}</span>
             <div className='priceHr'></div>
             <ul>
-              <li>Domen</li>
-              <li>Hosting (3 ГБ)</li>
-              <li>SSL sertifikat</li>
-              <li>Muddati 20/30 kun</li>
-              <li>Admin panel</li>
-              <li>Sayt ximoyasi</li>
+              <li>{getText('servicePriceLandingList1')}</li>
+              <li>{getText('servicePriceLandingList2')} (3 GB)</li>
+              <li>{getText('servicePriceLandingList3')}</li>
+              <li>{getText('servicePriceMagasineTime')}</li>
+              <li>{getText('servicePriceCatalogPanel')}</li>
+              <li>{getText('servicePriceMagasineXimoya')}</li>
             </ul>
             <h3>1000$</h3>
-            <a href="tel:+998500105610">Bepul Konsultatsiya</a>
+            <a href="tel:+998500105610">{getText('servicePriceConsultation')}</a>
           </div>
         </div>
 
         <div className='priceContent row justify-content-center'>
           <div className='priceCard card'>
-            <h2>Google</h2>
+            <h2>{getText('servicePriceReklamaGoogle')}</h2>
             <span>Bizdan sizga</span>
             <div className='priceHr'></div>
             <ul>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { toast } from 'react-hot-toast'
 import axios from 'axios'
+import {getText} from '../locale'
 
 export default function Contact() {
   const BOT_TOKEN = "6189574670:AAF6_AfceRuiuG3ZrSo_CSwfYyiY4hrpPb8";
@@ -45,12 +46,12 @@ export default function Contact() {
       }
     })
       .then((res) => {
-        toast.success("Habar yuborildi 🙂")
+        toast.success(`${getText('contactToasterSend')}`)
         e.target.reset()
         setDisbl(false)
       })
       .catch((err) => {
-        toast.error("Habar yuborilmadi! Qaytadan urinib ko'ring 😞")
+        toast.error(`${getText('contactToasterUnSend')}`)
         setDisbl(false)
       })
 
@@ -79,10 +80,10 @@ export default function Contact() {
   return (
     <section className='contactSection'>
       <div className="container">
-        <h2 className='contactTitle'>Biz bilan aloqa</h2>
+        <h2 className='contactTitle'>{getText('contactTitle')}</h2>
         <div className='contactContent'>
           <div className='contactInfo'>
-            <p><span>Savolingiz bormi?</span> U holda quyidagi bo`limlarni to`ldiring, va bizga yuboring. Sizga tez orada javob beramiz!</p>
+            <p><span>{getText('contactRequest')}</span> {getText('contactRequestText')}</p>
           </div>
 
           <form onSubmit={sendForm}>
@@ -107,7 +108,7 @@ export default function Contact() {
             <div className='col-12 col-md-12'>
               <textarea name="message" id="message" cols="30" rows="10" placeholder='Izoh qo’ldiring'></textarea>
             </div>
-              <button disabled={disbl}>Yuborish</button>
+              <button disabled={disbl}>{getText('contactBtn')}</button>
           </form>
         </div>
       </div>

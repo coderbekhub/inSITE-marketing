@@ -51,10 +51,10 @@ export default function Navbar() {
                   <Link onClick={navToggle}  className='nav-link' to='/'> {getText('Home')} </Link>
                 </li>
                 <li>
-                  <Link onClick={navToggle} className='nav-link' to='/xizmatlar'>Xizmatlarimiz</Link>
+                  <Link onClick={navToggle} className='nav-link' to='/xizmatlar'>{getText('Service')}</Link>
                 </li>
                 <li>
-                  <Link onClick={navToggle} className='nav-link' to='/aloqa'>Aloqa</Link>
+                  <Link onClick={navToggle} className='nav-link' to='/aloqa'>{getText('Contact')}</Link>
                 </li>
                 <ul className='langList'>
                   <li className='langWrap d-flex align-items-center'>
