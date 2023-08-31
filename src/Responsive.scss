@@ -225,6 +225,11 @@
     .servicesContent {
       margin-bottom: 80px;
       justify-content: center !important;
+
+      .test {
+        position: relative;
+        left: 0px;
+      }
       div {
         width: 80%;
         padding: 24px;
