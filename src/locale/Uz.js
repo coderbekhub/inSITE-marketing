@@ -6,7 +6,7 @@ export const uz = {
 
   'HeroTitle' : 'Web Marketing -',
   'HeroTitleSec' : 'ishonchli loyihangiz uchun hamkor',
-  'HeroText' : 'Shaxsiy brendingizni biz bilan rivojlantiring. Biz sizning maqsadlaringiz haqida qayg’uramiz va sizlarga eng yaxhi sifatni ulashishga jamomiz bilan astoydil harakat qilamiz bizga bildirgan ishonchingiz uchun "Web Marketing" jamoasi o’z minatdorchiligini bildiradi.',
+  'HeroText' : 'Shaxsiy brendingizni biz bilan rivojlantiring. Biz sizning maqsadlaringiz haqida qayg’uramiz va sizga eng yaxhi sifatni ulashishga jamomiz bilan astoydil harakat qilamiz bizga bildirgan ishonchingiz uchun "Web Marketing" jamoasi o’z minatdorchiligini bildiradi.',
   'HeroBtn' : 'BATAFSIL',
 
   'indicatorTitle' : 'Muvaffaqiyatli ishlarimiz soni',
@@ -78,7 +78,7 @@ export const uz = {
   'footerAdvantagesLink4' : 'Kafolatlangan xizmat',
   'footerAdvantagesLink5' : 'Profisional dizayn',
   'footerAdvantagesLink6' : 'Kreativ g’oyalar',
-  'footerContactPhone' : 'Bog‘lanish',
+  'footerContactPhone' : 'Biz bilan aloqa',
   'footerLastText' : '© 2023 webmarketing.uz Barcha huquqlar himoyalangan',
 
   'servicePriceTitle' : 'Narxlar',
@@ -107,6 +107,7 @@ export const uz = {
   'servicePriceReklamaList6' : 'Metrik ulanish',
   'servicePriceReklamaList7' : 'Haftalik hisobot',
   'servicePriceReklamaList8' : 'Moslashtirish vaqti: 5-7 kun',
+  'servicePriceReklamaGoogleYandex2' : 'Moslashtirish vaqti: 7-10 kun',
   'servicePriceReklamaMonth' : 'oyiga',
 
   'servicePriceReklamaYandex' : 'Yandex',

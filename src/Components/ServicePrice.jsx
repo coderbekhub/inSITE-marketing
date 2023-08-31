@@ -57,59 +57,59 @@ export default function ServicePrice() {
         <div className='priceContent row justify-content-center'>
           <div className='priceCard card'>
             <h2>{getText('servicePriceReklamaGoogle')}</h2>
-            <span>Bizdan sizga</span>
+            <span>{getText('servicePriceLandingBonus')}</span>
             <div className='priceHr'></div>
             <ul>
-              <li>Raqobatchilaringizning tahlili</li>
-              <li>Sayt tahlili + tavsiyalar </li>
-              <li>Taklif va byudjetni optimallashtirish</li>
-              <li>Kalit so'z tanlash</li>
-              <li>Taklif va byudjetni optimallashtirish</li>
-              <li>Metrik ulanish</li>
-              <li>Haftalik hisobot</li>
-              <li>Moslashtirish vaqti: 5-7 kun</li>
+              <li>{getText('servicePriceReklamaList1')}</li>
+              <li>{getText('servicePriceReklamaList2')}</li>
+              <li>{getText('servicePriceReklamaList3')}</li>
+              <li>{getText('servicePriceReklamaList4')}</li>
+              <li>{getText('servicePriceReklamaList5')}</li>
+              <li>{getText('servicePriceReklamaList6')}</li>
+              <li>{getText('servicePriceReklamaList7')}</li>
+              <li>{getText('servicePriceReklamaList8')}</li>
             </ul>
             <h3>100$</h3>
-            <span className='priceMonth'>oyiga</span>
-            <a href="tel:+998500105610">Bepul Konsultatsiya</a>
+            <span className='priceMonth'>{getText('servicePriceReklamaMonth')}</span>
+            <a href="tel:+998500105610">{getText('servicePriceConsultation')}</a>
           </div>
 
           <div className='priceCard card'>
-            <h2>Yandex</h2>
-            <span>Bizdan sizga</span>
+            <h2>{getText('servicePriceReklamaYandex')}</h2>
+            <span>{getText('servicePriceLandingBonus')}</span>
             <div className='priceHr'></div>
             <ul>
-              <li>Raqobatchilaringizning tahlili</li>
-              <li>Sayt tahlili + tavsiyalar </li>
-              <li>Taklif va byudjetni optimallashtirish</li>
-              <li>Kalit so'z tanlash</li>
-              <li>Taklif va byudjetni optimallashtirish</li>
-              <li>Metrik ulanish</li>
-              <li>Haftalik hisobot</li>
-              <li>Moslashtirish vaqti: 5-7 kun</li>
+              <li>{getText('servicePriceReklamaList1')}</li>
+              <li>{getText('servicePriceReklamaList2')}</li>
+              <li>{getText('servicePriceReklamaList3')}</li>
+              <li>{getText('servicePriceReklamaList4')}</li>
+              <li>{getText('servicePriceReklamaList5')}</li>
+              <li>{getText('servicePriceReklamaList6')}</li>
+              <li>{getText('servicePriceReklamaList7')}</li>
+              <li>{getText('servicePriceReklamaList8')}</li>
             </ul>
             <h3>100$</h3>
-            <span className='priceMonth'>oyiga</span>
-            <a href="tel:+998500105610">Bepul Konsultatsiya</a>
+            <span className='priceMonth'>{getText('servicePriceReklamaMonth')}</span>
+            <a href="tel:+998500105610">{getText('servicePriceConsultation')}</a>
           </div>
 
           <div className='priceCard card'>
-            <h2>Google + Yandex</h2>
-            <span>Bizdan sizga</span>
+            <h2>{getText('servicePriceReklamaGoogleYandex')}</h2>
+            <span>{getText('servicePriceLandingBonus')}</span>
             <div className='priceHr'></div>
             <ul>
-              <li>Raqobatchilaringizning tahlili</li>
-              <li>Sayt tahlili + tavsiyalar </li>
-              <li>Taklif va byudjetni optimallashtirish</li>
-              <li>Kalit so'z tanlash</li>
-              <li>Taklif va byudjetni optimallashtirish</li>
-              <li>Metrik ulanish</li>
-              <li>Haftalik hisobot</li>
-              <li>Moslashtirish vaqti: 7-10 kun</li>
+              <li>{getText('servicePriceReklamaList1')}</li>
+              <li>{getText('servicePriceReklamaList2')}</li>
+              <li>{getText('servicePriceReklamaList3')}</li>
+              <li>{getText('servicePriceReklamaList4')}</li>
+              <li>{getText('servicePriceReklamaList5')}</li>
+              <li>{getText('servicePriceReklamaList6')}</li>
+              <li>{getText('servicePriceReklamaList7')}</li>
+              <li>{getText('servicePriceReklamaGoogleYandex2')}</li>
             </ul>
             <h3>170$</h3>
-            <span className='priceMonth'>oyiga</span>
-            <a href="tel:+998500105610">Bepul Konsultatsiya</a>
+            <span className='priceMonth'>{getText('servicePriceReklamaMonth')}</span>
+            <a href="tel:+998500105610">{getText('servicePriceConsultation')}</a>
           </div>
         </div>
 
