@@ -64,7 +64,7 @@ export const ru = {
   'contactTitle' : 'Связаться с нами',
   'contactRequest' : 'У вас есть вопрос?',
   'contactRequestText' : 'Затем заполните следующие разделы и отправьте нам. Мы ответим вам в ближайшее время!',
-  'contactBtn' : 'Отправка',
+  'contactBtn' : 'Отправить',
 
   'footerServiceTitle' : 'Сервисы',
   'footerServiceLink' : 'Создать веб-сайт',
@@ -94,7 +94,7 @@ export const ru = {
   'servicePriceCatalogTime2' : 'Срок 10/20 дней',
   'servicePriceCatalogPanel' : 'Панель администратора',
 
-  'servicePriceMagasine' : 'Интернет-журнал',
+  'servicePriceMagasine' : 'Интернет-магазин',
   'servicePriceMagasineTime' : 'Срок 20/30 дней',
   'servicePriceMagasineXimoya' : 'Защита сайта',
 
