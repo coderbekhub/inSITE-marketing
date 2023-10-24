@@ -52,6 +52,12 @@
 }
 
 @media (max-width: 791px) {
+  .headerSection {
+    background: url(./img/herobg4.png); background-repeat: no-repeat; background-size: cover; background-position: right;
+    width: 100%;
+    height: 80vh;
+  }
+
   .Navbar{
     .navBody{
       .nav__toggler{
@@ -148,6 +154,76 @@
 
       .nav__active{
         transform: translateX(0);
+      }
+    }
+  }
+
+  // HERO
+
+  .heroSection {
+    .heroContent {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+
+      .heroInfo {
+        h2 {
+          width: 720px;
+          color: #ffffff9c;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 130%;
+          letter-spacing: 0.8px;
+          margin: 0 auto;
+          display: block;
+          margin-bottom: 32px;
+          text-align: center;
+          span {
+            color: #fff;
+          }
+        }
+
+        p {
+          width: 720px;
+          color: #ddd;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 140%; 
+          letter-spacing: 0.36px;
+          display: block;
+          margin-bottom: 32px;
+          text-align: center;
+        }
+
+        a {
+          width: 200px;
+          display: flex;
+          padding: 16px 24px;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          border-radius: 16px;
+          background: #1B68E0;
+          color: #FFF;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px; 
+          letter-spacing: 0.36px;
+          margin: 0 auto;
+
+          &:hover {
+            background: #1b67e0dd;
+          }
+        }
+      }
+
+      div {
+        img {
+          width: 417px;
+          height: 450px;
+          border-radius: 20px;
+        }
       }
     }
   }
@@ -382,6 +458,12 @@
 }
 
 @media (max-width: 564px) {
+  .headerSection {
+    background: url(./img/herobg5.png); background-repeat: no-repeat; background-size: cover; background-position: right;
+    width: 100%;
+    height: 80vh;
+  }
+
   .indicatorSection {
     .indicatorContent {
       top: 130px;

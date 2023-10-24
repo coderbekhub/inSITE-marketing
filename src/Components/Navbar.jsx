@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import { WEBMARKETING } from '../tools/constants'
 import { getLanguage, getText } from '../locale'
-import navBrand from '../img/navBrand.png'
+// import navBrand from '../img/navBrand.png'
+import navBrand from '../img/brand2.PNG'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
