@@ -6,6 +6,7 @@
     .contactTitle {
       font-size: 48px;
       margin-bottom: 10px;
+      padding-top: 0;
     }
 
     .contactContent {
@@ -713,7 +714,6 @@
   // CONTACT
 
   .contactSection2 {
-    padding-top: 160px;
     .contactTitle {
       font-size: 34px;
       margin-bottom: 20px;
@@ -817,13 +817,13 @@
 
       .socialList {
         div {
-          width: 30px !important;
-          height: 30px !important;
-          margin-left: 15px !important;
-          padding: 3px !important;
+          width: 30px;
+          height: 30px;
+          margin-left: 15px;
+          padding: 3px;
           a {
             i {
-              font-size: 13px !important;
+              font-size: 13px;
             }
           }
         }
