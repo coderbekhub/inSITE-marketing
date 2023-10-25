@@ -4,12 +4,13 @@ import Service from '../Components/Service'
 import ServicePrice from '../Components/ServicePrice'
 import Accordion from '../Components/Accordion'
 import Footer from '../Components/Footer'
+import ServicePage from '../Components/ServicePage'
 
 export default function Services() {
   return (
     <section className='serviceSection2'>
       <Navbar />
-      <Service />
+      <ServicePage />
       <ServicePrice />
       <Accordion />
       <Footer />

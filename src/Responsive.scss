@@ -1,6 +1,52 @@
 @media (max-width: 950px) {
   // CONTACT
 
+  .contactSection2 {
+    padding-top: 150px;
+    .contactTitle {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .contactContent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      p {
+        width: auto;
+        font-weight: 600;
+        line-height: 1.4;
+        font-size: 40px;
+        border: none;
+        border-bottom: 3px solid #1B68E0;
+        padding-left: 0px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      
+      form {
+        display: block;
+        input {
+          width: 100%;
+        }
+
+        textarea {
+          display: flex;
+          width: 100%;
+          margin-bottom: 25px;
+        }
+        
+        button {
+          width: 100%;
+          height: 50px;
+        }
+      }
+    }
+  }
+
   .contactSection {
     padding: 100px 0;
     margin-top: 100px;
@@ -289,6 +335,28 @@
 
   // SERVICES 
 
+  .serviceSection2 {
+    .servicesTitle {
+      font-size: 34px;
+      margin-bottom: 44px;
+    }
+
+    .servicesContent {
+      margin-bottom: 80px;
+      justify-content: center !important;
+
+      .test {
+        position: relative;
+        left: 0px;
+      }
+      div {
+        width: 80%;
+        padding: 24px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+
   .serviceSection {
     margin-bottom: 0px;
     position: relative;
@@ -351,6 +419,43 @@
   }
 
     // CONTACT
+
+    .contactSection2 {
+      .contactTitle {
+        font-size: 34px;
+        margin-bottom: 20px;
+      }
+  
+      .contactContent {
+        p {
+          font-size: 30px;
+          border: none;
+          border-bottom: 2px solid #1B68E0;
+          padding-left: 0px;
+          padding-bottom: 10px;
+          margin-bottom: 50px;
+          text-align: center;
+        }
+        form {
+          display: block;
+          input {
+            width: 100%;
+          }
+  
+          textarea {
+            display: flex;
+            width: 100%;
+            margin-bottom: 35px;
+          }
+          
+          button {
+            width: 100%;
+            height: 50px;
+          }
+        }
+      }
+
+    }
 
     .contactSection {
       padding: 50px 0;
@@ -533,6 +638,26 @@
 
     // SERVICES 
 
+    .serviceSection2 {
+      font-size: 34px;
+      margin-bottom: 34px;
+    }
+
+    .servicesContent {
+      margin-bottom: 80px;
+      div {
+        h3 {
+          font-size: 26px !important;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
+  }
+
     .serviceSection {
       .servicesTitle {
         font-size: 34px;
@@ -586,6 +711,44 @@
   }
 
   // CONTACT
+
+  .contactSection2 {
+    padding-top: 160px;
+    .contactTitle {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+
+    .contactContent {
+      p {
+        font-size: 20px;
+        border: none;
+        border-bottom: 2px solid #1B68E0;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      form {
+        display: block;
+        input {
+          width: 100%;
+        }
+
+        textarea {
+          display: flex;
+          width: 100%;
+          margin-bottom: 35px;
+        }
+        
+        button {
+          width: 100%;
+          height: 50px;
+        }
+      }
+    }
+
+  }
 
   .contactSection {
     padding: 30px 0;
@@ -685,9 +848,6 @@
     }
   }
 
-
-}
-
 @media(max-width: 403px) {
   // HERO
 
@@ -716,7 +876,6 @@
           display: block;
           margin-bottom: 20px;
         }
-
       }
 
       div {

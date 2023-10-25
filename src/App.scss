@@ -253,6 +253,7 @@ a {
 // INDICATOR 
 
 .indicatorSection {
+  margin-bottom: 100px;
   .indicatorContent {
     display: flex;
     justify-content: space-between;
@@ -290,22 +291,33 @@ a {
 
 // SERVICES 
 
-.serviceSection {
-  
-  margin-bottom: 100px;
-  position: relative;
-  top: 150px;
-  .servicesTitle {
-    color: #0B2A5A;
+.serviceSection2 {
+  background: url(img/serviceOrg.png);background-repeat: no-repeat;background-size: cover;background-position: center;
+  width: 100%;
+  height: 100vh;
+
+  .servicesTitle2 {
+    color: #ddd;
     font-size: 48px;
     font-weight: 700;
-    line-height: 130%; 
+    letter-spacing: 0.96px;
+    margin-bottom: 64px;
+    padding-top: 200px;
+  }
+}
+
+.serviceSection {
+  margin-bottom: 100px !important;
+ 
+  .servicesTitle {
+    color: #0B2A5A;
+    font-size: 48px !important;
+    font-weight: 700;
     letter-spacing: 0.96px;
     margin-bottom: 64px;
   }
 
   .servicesContent {
-    margin-bottom: 150px;
     justify-content: space-between;
 
     .test {
@@ -360,19 +372,17 @@ a {
 // ADVANTAGES
 
 .advantageSection {
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
   .advantagesTitle {
     color: #0B2A5A;
-    font-size: 48px;
+    font-size: 48px !important;
     font-weight: 700;
-    line-height: 130%;
     letter-spacing: 0.96px;
     margin-bottom: 64px;
-    padding-top: 100px;
   }
 
   .advantageContent {
-    gap: 24px;
+    gap: 24px !important;
     div {
       width: 400px;
       padding: 24px 16px;
@@ -404,7 +414,7 @@ a {
 
       h3 {
         color: #05152D;
-        font-size: 30px;
+        font-size: 30px !important;
         font-weight: 600;
         line-height: 130%; 
         letter-spacing: 0.6px;
@@ -414,7 +424,7 @@ a {
       p {
         overflow: hidden;
         color: #394352;
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 500;
         line-height: 140%; 
         letter-spacing: 0.36px;
@@ -426,7 +436,7 @@ a {
 // ACCORDION
 
 .accordionSection {
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
   .accordionTitle {
     color: #0B2A5A;
     font-size: 48px;
@@ -465,17 +475,98 @@ a {
 
 // CONTACT
 
-.contactSection {
-  background: rgba(209, 225, 249, 0.20);
-  padding: 100px 0;
-  margin-top: 100px;
-
+.contactSection2 {
+  background: url(img/ContactBg2.png);background-repeat: no-repeat;background-size: cover;background-position: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 300px !important;
   .contactTitle {
-    color: #0B2A5A;
-    font-size: 48px;
+    color: #fff;
+    font-size: 48px !important;
     font-weight: 700;
     line-height: 130%; 
     letter-spacing: 0.96px;
+    margin-bottom: 0 !important;
+  }
+
+  .contactContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    p {
+      width: 576px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: #1B68E0;
+      font-size: 34px !important;
+      border-left: #1B68E0 solid 3px;
+      padding-left: 15px;
+
+      span {
+        color: #fff;
+      } 
+    }
+    form {
+      input {
+        width: 350px;
+        padding: 10px 30px 10px 12px;
+        border-radius: 40px;
+        border: 3px solid #1B68E0;
+        margin-bottom: 20px;
+        background: none;
+        color: #ddd;
+        &::placeholder {
+          color: #fff;
+        }
+      }
+
+      textarea {
+        display: flex;
+        width: 350px;
+        height: 170px;
+        border-radius: 40px;
+        border: 3px solid #1B68E0;
+        padding: 15px 0 0 15px;
+        margin-bottom: 35px;
+        background: none;
+        color: #ddd;
+        &::placeholder {
+          color: #fff;
+        }
+      }
+      
+      button {
+        width: 350px;
+        height: 50px;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 40px;
+        border: 1px solid #1B68E0;
+        background: #1B68E0;
+        color: #FCFCFC;
+        font-size: 20px;
+        font-weight: 400;
+        &:hover {
+          background: #2b72e5;
+        }
+      }
+    }
+  }
+
+}
+
+.contactSection {
+  background: rgba(209, 225, 249, 0.20);
+  padding: 100px 0 !important;
+
+  .contactTitle {
+    color: #0B2A5A;
+    font-size: 48px !important;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    margin: 0 !important;
   }
 
   .contactContent {
@@ -489,7 +580,7 @@ a {
       font-weight: 600;
       line-height: 1.4;
       color: #0B2A5A;
-      font-size: 40px;
+      font-size: 34px !important;
       border-left: #1B68E0 solid 3px;
       padding-left: 15px;
 
@@ -545,7 +636,7 @@ a {
 
     li {
       color: #FFF;
-      font-size: 16px;
+      font-size: 16px !important;
       font-weight: 600;
       line-height: 140%;
       letter-spacing: 0.4px;
@@ -553,7 +644,7 @@ a {
     }
     h2 {
       color: #FFF;
-        font-size: 22px;
+        font-size: 22px !important;
         font-weight: 700;
         line-height: 140%; 
         letter-spacing: 0.64px;
@@ -585,7 +676,7 @@ a {
         margin-bottom: 40px;
         i {
           margin-right: 6px;
-          font-size: 17px;
+          font-size: 17px !important;
           color: #fff;
         }
 
@@ -634,7 +725,7 @@ a {
   .footerLastContent {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between !important; 
     flex-wrap: wrap;
     a {
       img {
