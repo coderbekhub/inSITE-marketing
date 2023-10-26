@@ -130,7 +130,7 @@
         right: 0;
         width: 70%;
         height: 100vh;
-        background: #1B68E0;
+        background: #143179;
         flex-direction: column;
         justify-content: center;
         transform: translateX(100%);
@@ -157,12 +157,8 @@
               height: auto;
               padding: 2px 10px;
               border-radius: 12px;
-              background: #55C4E2;
+              background: #0F2164;
               align-items: center;
-  
-              &:hover {
-                background: #55c3e2e0;
-              }
             }
         
             .wrap{
@@ -361,7 +357,7 @@
   .serviceSection {
     margin-bottom: 0px;
     position: relative;
-    top: 150px;
+    top: 0px;
     .servicesTitle {
       font-size: 34px;
       margin-bottom: 44px;
