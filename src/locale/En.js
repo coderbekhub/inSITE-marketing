@@ -4,9 +4,9 @@ export const en = {
   'Service' : 'Services',
   'Contact' : 'Contact',
 
-  'HeroTitle' : 'Web Marketing -',
+  'HeroTitle' : 'inSITE MARKETING -',
   'HeroTitleSec' : 'partner for your reliable project',
-  'HeroText' : 'Develop your personal brand with us. We care about your goals and work hard together with our team to provide you with the best quality. The Web Marketing team is very grateful for your trust in us.',
+  'HeroText' : 'Develop your personal brand with us. We care about your goals and work hard together with our team to provide you with the best quality. The inSITE Marketing team is very grateful for your trust in us.',
   'HeroBtn' : 'More',
 
   'indicatorTitle' : 'The number of our successful works',
@@ -31,7 +31,7 @@ export const en = {
   'advantagesType2' : 'Technical support',
   'advantagesText2' : 'After the completion of the project, our employees will be monitored for 3 months.',
   'advantagesType3' : 'Affordable price and quality',
-  'advantagesText3' : 'Web Marketing offers its clients excellent quality and affordable prices.',
+  'advantagesText3' : 'inSITE Marketing offers its clients excellent quality and affordable prices.',
   'advantagesType4' : 'Guaranteed Service',
   'advantagesText4' : 'We guarantee 100% that our service will comply with the agreement and we will provide it within the agreed time frame.',
   'advantagesType5' : 'Professional Design',
@@ -79,7 +79,7 @@ export const en = {
   'footerAdvantagesLink5' : 'Professional Design',
   'footerAdvantagesLink6' : 'creative ideas',
   'footerContactPhone' : 'Connect with us',
-  'footerLastText' : '© 2023 webmarketing.uz All rights reserved',
+  'footerLastText' : '© 2023 insitemarketing.uz All rights reserved',
 
   'servicePriceTitle' : 'Prices',
   'servicePriceLanding' : 'Landing page',

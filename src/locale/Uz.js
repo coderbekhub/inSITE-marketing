@@ -4,9 +4,9 @@ export const uz = {
   'Service' : 'Xizmatlarimiz',
   'Contact' : 'Aloqa',
 
-  'HeroTitle' : 'Web Marketing -',
+  'HeroTitle' : 'inSITE Marketing -',
   'HeroTitleSec' : 'ishonchli loyihangiz uchun hamkor',
-  'HeroText' : 'Shaxsiy brendingizni biz bilan rivojlantiring. Biz sizning maqsadlaringiz haqida qayg’uramiz va sizga eng yaxhi sifatni ulashishga jamomiz bilan astoydil harakat qilamiz bizga bildirgan ishonchingiz uchun "Web Marketing" jamoasi o’z minatdorchiligini bildiradi.',
+  'HeroText' : 'Shaxsiy brendingizni biz bilan rivojlantiring. Biz sizning maqsadlaringiz haqida qayg’uramiz va sizga eng yaxhi sifatni ulashishga jamomiz bilan astoydil harakat qilamiz bizga bildirgan ishonchingiz uchun "inSITE Marketing" jamoasi o’z minatdorchiligini bildiradi.',
   'HeroBtn' : 'BATAFSIL',
 
   'indicatorTitle' : 'Muvaffaqiyatli ishlarimiz soni',
@@ -79,7 +79,7 @@ export const uz = {
   'footerAdvantagesLink5' : 'Profisional dizayn',
   'footerAdvantagesLink6' : 'Kreativ g’oyalar',
   'footerContactPhone' : 'Biz bilan aloqa',
-  'footerLastText' : '© 2023 webmarketing.uz Barcha huquqlar himoyalangan',
+  'footerLastText' : '© 2023 insitemarketing.uz Barcha huquqlar himoyalangan',
 
   'servicePriceTitle' : 'Narxlar',
   'servicePriceLanding' : 'Landing page',

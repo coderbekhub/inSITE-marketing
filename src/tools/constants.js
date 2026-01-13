@@ -1,1 +1,1 @@
-export const WEBMARKETING = "WEBMARKETING" 
+export const inSITEMARKETING = "inSITEMARKETING"; 

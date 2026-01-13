@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react'
-import { WEBMARKETING } from '../tools/constants'
+import { inSITEMARKETING } from '../tools/constants'
 import { getLanguage, getText } from '../locale'
 import navBrand from '../img/brand2.PNG'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const changeLanguage = (e) => {
-    localStorage.setItem(WEBMARKETING, e)
+    localStorage.setItem(inSITEMARKETING, e)
     document.location.reload(true)
   }
 
